@@ -1,0 +1,5 @@
+[23-May-2024 06:33:18 UTC] PHP Warning:  require(/home1/hummelec/data.ibextools.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hummelec/data.ibextools.com/index.php on line 13
+[23-May-2024 06:33:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hummelec/data.ibextools.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hummelec/data.ibextools.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hummelec/data.ibextools.com/index.php on line 13

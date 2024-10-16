@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body{
+    background:blue !important;
+} */
+.flex-center{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.deleteButton{
+    height: max-content;
+}
+div.dt-container .dt-paging .dt-paging-button{
+    padding: 0px !important;
+}
+.vertical-align-middle {
+    text-align: center !important;
+    vertical-align: middle !important;
+    text-wrap: nowrap !important;
+    color: #000 !important;
+}
+.status-unpaid {
+    color: red;
+}
+
+.status-paid {
+    color: green;
+}
+.email-sent td{
+    color: var(--bs-success) !important;
+}
+
+.dt-buttons, .dt-search {
+    display: inline !important;
+}
+
+.dt-buttons , .dt-length{
+    float: right !important;
+}
+
+.dt-length{
+    margin-right: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.sort-disabled{
+    padding: 0px !important;
+}
+
+.sort-disabled>.dt-column-order {
+    display: none !important;
+}
+.loader{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 140px;
+    background-image: 
+    linear-gradient(#FFF 20px, transparent 0), 
+    linear-gradient(#FFF 20px, transparent 0), 
+    linear-gradient(#FFF 20px, transparent 0), 
+    linear-gradient(#FFF 20px, transparent 0);
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: 0 0, 40px 0, 80px 0, 120px 0;
+    animation: pgfill 1s linear infinite;
+  }
+  @keyframes pgfill {
+    0% {   background-image: linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0); }
+    25% {   background-image: linear-gradient(#FF3D00 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0); }
+    50% {   background-image: linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FF3D00 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0); }
+    75% {   background-image: linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FF3D00 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0); }
+    100% {   background-image: linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FFF 20px, transparent 0), linear-gradient(#FF3D00 20px, transparent 0); }
+  }
+  .loading_body{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+  }
+  /* Common styles for dot */
+
+
+  
+
+
